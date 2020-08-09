@@ -14,7 +14,7 @@ all over the world which has been a major concern over the years.
 ## About
 This positive outcome has inspired me to research more on the datasets available and predict the impact of improved air quality on the overall ecosystem, such as by how far the melting of polar ice will be pushed which was originally predicted at 2100. The positive aspect of this pandemic could be an eye opener to reanalyze the parameters which play a vital role in a healthier environment. This might encourage people to keep the air immaculate once this lockdown is over.
 
-## System Design And Implementation
+## Working and Evaluation Methodology
 
 Given data was split into the period before shelter in placestarted and after it. The data after shelter in place was setaside for comparison with the predicted data. Data from 2014 to shelter in place was used to train the time series model,which resulted in prediction of the content of pollutants if shelter in place would not have happened.
 
