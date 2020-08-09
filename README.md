@@ -51,7 +51,7 @@ alization library based on matplotlib. It provides a high-level interface for dr
 
 ![Architecture of time series prediction](images/architecture.png)
 
-### Instructions
+## Instructions
 
 1. Clone this repository using `git clone git@github.com:UtkarshChaurasia/Autho-Hackathon.git`
 2. Install python using `sudo apt-get install python3.6`
