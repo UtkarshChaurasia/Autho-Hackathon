@@ -27,7 +27,7 @@ known dataset. Figure 7 shows the final predicted graph for the PM2.5 content wi
 
 ## Tech Stack And System Design
 
-# Algorithms
+### Algorithms
 
 Statsmodel library of python was used to perform time series prediction. Statsmodel have numerous models, 3 of which we used are described below.
 
@@ -39,7 +39,7 @@ AR model usually gets “close enough” for it to be useful in most scenarios.
 3) Seasonal Autoregressive Integrated Moving Average: Seasonal Autoregressive Integrated Moving Average,SARIMA or Seasonal ARIMA, is an extension of ARIMA that explicitly supports univariate time series data with a seasonal component. It adds three new hyperparameters to specify the autoregression (AR), differencing (I) and moving
 average (MA) for the seasonal component of the series as well as an additional parameter for the period of the seasonality.
 
-# Technologies Used
+### Technologies Used
 
 1) Programming: Python was used for programming. Python provides support to libraries like statsmodel which
 make data analysis easy. Statsmodel have various time-series models to choose from.
@@ -47,6 +47,16 @@ make data analysis easy. Statsmodel have various time-series models to choose fr
 2) Visualization: Seaborn and Matplotlib was used for visualising different graphs. Seaborn is a Python data visu-
 alization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
-# Architecture
+### Architecture
 
 ![Architecture of time series prediction](images/architecture.png)
+
+### Instructions
+
+1. Clone this repository using `git clone git@github.com:UtkarshChaurasia/Autho-Hackathon.git`
+2. Install python using `sudo apt-get install python3.6`
+3. Switch to repository folder. 
+3. Install all the required libraries using `pip install -r requirements.txt`
+4. Run app.py file using `python app.py`
+
+The dashboard will be up and running on your favourite browser.
