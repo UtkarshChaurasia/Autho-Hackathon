@@ -44,8 +44,7 @@ average (MA) for the seasonal component of the series as well as an additional p
 1) Programming: Python was used for programming. Python provides support to libraries like statsmodel which
 make data analysis easy. Statsmodel have various time-series models to choose from.
 
-2) Visualization: Seaborn and Matplotlib was used for visualising different graphs. Seaborn is a Python data visu-
-alization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+2) Visualization: Seaborn, Plotly and Matplotlib was used for visualising different graphs. Dash is used to buid visualization dashboard.
 
 ### Architecture
 
