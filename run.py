@@ -172,16 +172,27 @@ data2020=[traceW,traceNY,tracecb,tracepb,tracedb,tracehb,tracesb,tracebb,tracelb
 # Now we create the app layout
 
 app.layout=html.Div(children=[
-        html.H1(['Air PM level before and after corona'],style={'textAlign':'center',
+        html.H1(['VISUALIZATION OF AIR PM LEVEL BEFORE AND AFTER COVID-19'],style={'textAlign':'center',
                                                                 'backgroundColor':'#000000',
                                                                 'color':'#FFFFFF',
-                                                                'display':'inline_block'
+                                                                'display':'inline_block',
+                                                                'border-radius': '30px',
+                                                                'padding': '10px 10px 10px 10px',
+                                                                'font-size': '60px',
+                                                                'font-family': 'Impact, Haettenschweiler, Arial Narrow Bold, sans-serif',
                                                                 }),
         html.H2(['Pollution level of major cities around the globe'],style={
                                                                     'textAlign':'center',
-
-        }),
-        html.H3('PM, also known as particle pollution, is a complex mixture of air-borne particles and liquid droplets composed of acids (such as nitrates and sulfates), ammonium, water, black (or "elemental") carbon, organic chemicals, metals, and soil (crustal) material.'),
+                                                                    'font-family': 'Impact, Haettenschweiler, Arial Narrow Bold, sans-serif',
+                                                                    'font-weight': '600',
+                                                                    'font-size': '30px',
+                                                                }),
+        html.H3(['PM, also known as particle pollution, is a complex mixture of air-borne particles and liquid droplets composed of acids (such as nitrates and sulfates), ammonium, water, black (or "elemental") carbon, organic chemicals, metals, and soil (crustal) material.'],
+                                                                style={
+                                                                    'font-family': 'Impact, Haettenschweiler, Arial Narrow Bold, sans-serif',
+                                                                    'font-weight': 'inherit',
+                                                                    'padding': '0px 100px 15px 100px',
+                                                                }),
         dcc.Graph(id='pollution',
             figure={'data':data, 'layout':{'title':'Pollution Plots!',
                                         'yaxis':{'title':'PM level of air'},
