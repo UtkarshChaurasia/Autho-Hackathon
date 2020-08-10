@@ -59,3 +59,15 @@ make data analysis easy. Statsmodel have various time-series models to choose fr
 4. Run app.py file using `python app.py`
 
 The dashboard will be up and running on your favourite browser.
+
+## Conclusion
+
+Using the timeline of lockdowns and comprehensive dataset of air pollution we found out that COVID-19 despite its heavy economic toll on society has a very positive effect on the global air quality for the time being. According to this year’s Air Quality Index cities with historic levels of PM 2.5 have witnessed a dramatic drop in air pollution since enforcing lockdown; 44% in Wuhan, 54% in Seoul, and 60% in New Delhi[5]. According to researchers led by Xiao Wu at Harvard University[6] an increase of just 1 microgram per cubic meter corresponded to a 15% increase in Covid- 19 deaths. So we can safely say that this quarantine period has indeed been more life saving than life-threatening.
+
+## Future Suggestion
+
+1. Electric Vehicles: Make electric vehicles the new normal and out number the conventional cars.
+2. Renewable Power: Sink tax dollars and resources into clean-energy subsidies.
+3. Afforestation: Regrow enough trees to cover India Twice.
+4. Carbon Tax: Charge polluters $75 for every metric ton of CO2 they produce.
+5. Nuclear Power: Mandate government handouts to source 11% of energy production through nuclear fuel.
