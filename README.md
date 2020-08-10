@@ -71,3 +71,5 @@ Using the timeline of lockdowns and comprehensive dataset of air pollution we fo
 3. Afforestation: Regrow enough trees to cover India Twice.
 4. Carbon Tax: Charge polluters $75 for every metric ton of CO2 they produce.
 5. Nuclear Power: Mandate government handouts to source 11% of energy production through nuclear fuel.
+
+If notebooks are not opening, then copy and paste the link of notebooks here: https://nbviewer.jupyter.org/
